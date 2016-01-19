@@ -16,7 +16,7 @@ echo "Searching for video stream..."
 echo
 
 
-ls -l -R /proc 2> /dev/null  | grep video0
+ls -l -R /proc 2> /dev/null  | grep /dev/video
 
 if [ $? -eq 0 ]
 then
